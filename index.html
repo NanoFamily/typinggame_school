@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Typing Game</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/table.css">
+</head>
+<body>
+
+  <div class="kokuban-s1" id="kokuban">
+    <p id="target">Click to start!</p>
+    <p id="result">--</p>
+    <button id="retry">Retry</button>
+  </div>
+
+  <div class="image flex-container">
+    <img src="images/school_boy.png" alt="school_boy" width="210" height="290" class="boy flex-item">
+    <div>
+      <div class="iconbox iconbox-pink">
+        <div class="box-title box-head-pink">Your Results</div>
+        <div class="iconbox-wrap">
+          <div class="box-content">
+            <ol class="list-number" id="todo-list"></ol>
+          </div>
+          <div class="iconballoon">
+            <div class="balloon">You made it!!</div>
+            <div class="icon"><img src="images/trophy.png"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="images/teacher.png" alt="teacher" width="280" height="360" class="teacher flex-item">
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
